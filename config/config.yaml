@@ -1,0 +1,25 @@
+mainconfig:
+  host: 127.0.0.1
+  port: 3000
+  appname: gopherAI
+mysqlconfig:
+  mysqlhost: 127.0.0.1
+  mysqlport: 3306
+  mysqluser: root
+  mysqlpassword: 143737yj
+  mysqldbname: gopherAI
+  mysqlcharset: utf8mb4
+redisconfig:
+  redishost: 127.0.0.1
+  redisport: 6379
+  redisdb: 0
+  redispassword: 
+emailconfig:
+  authcode: awscjzllhjntdjeh
+  email: yuanji_hust@qq.com
+jwtconfig:
+  expireduration: 8760
+  issuer: yuanji
+  subject: GopherAI
+  key: GopherAI-v1
+
